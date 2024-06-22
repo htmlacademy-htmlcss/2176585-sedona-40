@@ -47,7 +47,7 @@ body {
 }
 
 .hero {
-  background-image: url("/images/index/background-hero.jpg");
+  background-image: url("../images/index/background-hero.jpg");
   background-size: 100% auto cover;
   background-repeat: no-repeat;
   background-color: #e2eff7;
@@ -271,7 +271,7 @@ body {
 }
 
 .subscribe {
-  background-image: url("/images/index/background-subscribe.jpg");
+  background-image: url("../images/index/background-subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #8dabb9;
@@ -306,7 +306,7 @@ body {
 }
 
 .hotel-search {
-  background-image: url("/images/catalog/hotel-search-background.jpg");
+  background-image: url("../images/catalog/hotel-search-background.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: #4a7fa7;
