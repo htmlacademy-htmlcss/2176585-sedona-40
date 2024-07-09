@@ -215,7 +215,7 @@ body {
   margin-bottom: 32px;
 }
 
-.advantages-title::after {
+.advantages-wrapper .advantages-title::after {
   content: "";
   display: block;
   width: 60px;
@@ -316,6 +316,7 @@ body {
 
 .features-title {
   margin: 0;
+  margin-bottom: 30px;
 }
 
 .features-housing::before {
@@ -776,7 +777,6 @@ body {
 
 .reset-button:hover {
   opacity: 0.6;
-
 }
 
 .reset-button:focus {
