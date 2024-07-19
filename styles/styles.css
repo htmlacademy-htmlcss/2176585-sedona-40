@@ -1034,7 +1034,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  text-align: center;
+  align-content: center;
   text-decoration: none;
   padding: 8px 26px;
   background: #756157;
