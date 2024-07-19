@@ -174,12 +174,17 @@
 
     <div class="modal-container">
       <div class="modal modal-hotel-search">
-        <button class="modal-close-button">
+        <button class="modal-close-button" onclick="closeTab()">
           <span class="visually-hidden">Закрыть</span>
           <svg class="close-button-icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z"/>
           </svg>
         </button>
+        <script>
+          function closeTab() {
+          window.close("modal.html", "_blank");
+          }
+        </script>
         <section class="modal-content">
           <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <form class="hotel-search-form" action="https://echo.htmlacademy.ru/" method="post">
