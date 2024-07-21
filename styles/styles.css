@@ -21,6 +21,7 @@
 
 html {
   height: 100%;
+  background-color: #F2F2F2;
 }
 
 body {
@@ -404,7 +405,7 @@ body {
 
 .subscribe {
   background-image: url("../images/index/background-subscribe.jpg");
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-color: #8dabb9;
   background-position: center;
@@ -456,7 +457,7 @@ body {
   margin: 0 auto;
   padding: 45px 69px 35px 70px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .social-list {
@@ -503,7 +504,7 @@ body {
   color: #000000;
   text-align: center;
   text-decoration: none;
-  margin: 0 235px 0 237px;
+  max-width: 331px;
 }
 
 .developer-link {
@@ -848,10 +849,12 @@ body {
 
 .display-mode-list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
   gap: 8px;
+  max-width: 160px;
 }
 
 .display-tile::after {
@@ -927,10 +930,6 @@ body {
   left: 70px;
 }
 
-.search-result-item {
-  padding: 19px;
-}
-
 .pagination {
   display: flex;
   list-style-type: none;
@@ -994,6 +993,8 @@ body {
   column-gap: 20px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
+  align-items: start;
+  padding: 19px;
 }
 
 .hotel-link {
@@ -1072,7 +1073,7 @@ body {
 }
 
 .hotel-stars {
-  align-content: center;
+  padding: 10px 0;
 }
 
 .four-stars::after {
@@ -1156,7 +1157,9 @@ body {
 }
 
 .reset-button:disabled {
+  background: transparent;
   opacity: 0.1;
+  pointer-events: none;
 }
 
 .modal-container {
@@ -1194,7 +1197,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
   padding-top: 6px;
-  padding-left: 5px;
+  padding-left: 6px;
 }
 
 .close-button-icon {

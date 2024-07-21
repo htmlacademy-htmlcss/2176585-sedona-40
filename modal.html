@@ -174,7 +174,7 @@
 
     <div class="modal-container">
       <div class="modal modal-hotel-search">
-        <button class="modal-close-button">
+        <button class="modal-close-button" type="button">
           <span class="visually-hidden">Закрыть</span>
           <svg class="close-button-icon" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.4905 1.78288L13.1982 0.49057L7.49048 6.19826L1.78279 0.49057L0.490479 1.78288L6.19817 7.49057L0.490479 13.1983L1.78279 14.4906L7.49048 8.78288L13.1982 14.4906L14.4905 13.1983L8.78279 7.49057L14.4905 1.78288Z"/>
@@ -185,12 +185,12 @@
           <form class="hotel-search-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="field-group">
               <label class="modal-form-text" for="check-in-date">Дата заезда:</label>
-              <input class="search-form-field date-field" type="text" id="check-in-date" name="check-in-date" placeholder="01 января 2021" value="27 апреля 2020">
+              <input class="search-form-field date-field" type="text" id="check-in-date" name="check-in-date" placeholder="01 января 2021" value="27 апреля 2020" required>
               <span class="date-incorrect-notice date-notice">Мы не можем отправить вас в прошлое.</span>
             </div>
             <div class="field-group">
               <label class="modal-form-text" for="check-out-date">Дата выезда:</label>
-              <input class="search-form-field date-field" type="text" id="check-out-date" name="check-out-date" placeholder="01 января 2021" value="1 сентября 2023">
+              <input class="search-form-field date-field" type="text" id="check-out-date" name="check-out-date" placeholder="01 января 2021" value="1 сентября 2023" required>
               <span class="date-correct-notice date-notice">На эти даты есть свободные номера. Пока есть.</span>
             </div>
             <div class="guest-count">
